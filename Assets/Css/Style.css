@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
 }
 
 * {
@@ -14,7 +14,8 @@ body {
   width: 100%;
   z-index: 5;
 }
-/**************************Navigation bar 2*************************/
+
+/* *************************Navigation bar 2************************ */
 .toprow-2 [class^="na-"] {
   display: none;
 }
@@ -32,7 +33,7 @@ body {
 }
 
 .nav-logo img {
-  margin:12px;
+  margin: 12px;
 }
 
 #srchicon {
@@ -83,7 +84,8 @@ body {
   clear: both;
   display: block;
 }
-/*************************articles-flex-3******************************/
+
+/* ************************articles-flex-3***************************** */
 .main-sec {
   position: relative;
   top: 106px;
@@ -100,7 +102,7 @@ body {
 
 .art123 {
   height: 122.09px;
-  background-size: 100%!important;
+  background-size: 100% !important;
 }
 
 .art1 {
@@ -152,7 +154,8 @@ body {
   font-size: 0.8rem;
   margin-right: 9px;
 }
-/*latest funding*/
+
+/* latest funding */
 .fndg-3 img {
   width: 60px;
   height: 60px;
@@ -199,7 +202,8 @@ body {
   padding: 9px;
   font-size: 14px;
 }
-/*footer*/
+
+/* footer */
 .tnw-foot {
   border: 1px solid red;
 }
@@ -226,13 +230,14 @@ body {
 
 .foot-lst ul li,.foot-botm p {
   margin-right: 8px;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 .foot-botm .tnw {
   width: 37.7px;
   height: 9px;
 }
+<<<<<<< HEAD
 
 /* Media Query */
 @media (min-width: 768px) and (max-width: 1023px){
@@ -240,3 +245,5 @@ body {
     padding: 16px 12px;
   }
 }
+=======
+>>>>>>> cdd1c53abae7554bee4f4cb2320abb841022343d
