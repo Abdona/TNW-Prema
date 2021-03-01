@@ -237,13 +237,24 @@ body {
   width: 37.7px;
   height: 9px;
 }
-<<<<<<< HEAD
 
 /* Media Query */
 @media (min-width: 768px) and (max-width: 1023px){
-  .nav-sec{
-    padding: 16px 12px;
-  }
+  
+.article3 {
+  display: grid;
+  grid-template-columns: repeat(10,60px);
+  grid-gap: 10px;
+  border: 1px solid red;
+  grid-template-rows: repeat(6,20px);
 }
-=======
->>>>>>> cdd1c53abae7554bee4f4cb2320abb841022343d
+
+.art1{
+  grid-column: 1/7;
+  grid-row: 1/7;
+}
+.art2{
+  grid-column: 7/11;
+  grid-row: 1/4;
+}
+}
