@@ -1,7 +1,6 @@
 body {
   margin: 0 auto;
   padding: 0 auto;
-  /*background-color: gainsboro;*/
 }
 
 * {
@@ -16,7 +15,6 @@ body {
     z-index: 5;
 }
 /**************************Navigation bar 2*************************/
-
 .toprow-2 [class^="na-"] {
   display: none;
 }
