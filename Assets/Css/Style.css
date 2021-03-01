@@ -201,3 +201,43 @@ body {
   padding: 9px;
   font-size: 14px;
 }
+
+/*latest news*/
+
+.latest-news{
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin-top:  70px;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  padding: 0;
+}
+
+.byline{
+  color: #aaa;
+  font-size: 12px;
+  padding-top: 4px;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+.image img {
+  width: 75px;
+  height: 75px;
+}
+.h4{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; 
+}
