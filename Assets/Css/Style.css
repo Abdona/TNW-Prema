@@ -85,3 +85,72 @@ body {
   clear: both;
   display: block;
 }
+/*************************articles-flex-3******************************/
+.main-sec {
+  position: relative;
+  top: 106px;
+  width: 100%;
+}
+
+.article3 {
+  position: relative;
+}
+
+.art-cont {
+  padding: 0 4px 4px 4px;
+}
+
+.art123 {
+  height: 122.09px;
+  background-size: 100%!important;
+}
+
+.art1 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg") center no-repeat;
+}
+
+.art2 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png") center no-repeat;
+}
+
+.art3 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png") center no-repeat;
+}
+
+.art-cover {
+  transition: background-color 0.4s ease;
+  background: rgba(0,0,0,.25) url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  z-index: 2;
+  display: block;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #fff;
+  height: 100%;
+  will-change: background-color;
+}
+
+.arthead {
+  color: #fff;
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  padding: 13px;
+  margin-bottom: -5px;
+}
+
+.arthead h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.arthead ul {
+  display: flex;
+  margin-top: 4px;
+}
+
+.arthead ul li {
+  font-size: 0.8rem;
+  margin-right: 9px;
+}
