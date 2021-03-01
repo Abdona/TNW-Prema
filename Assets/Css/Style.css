@@ -201,3 +201,37 @@ body {
   padding: 9px;
   font-size: 14px;
 }
+/*footer*/
+.tnw-foot {
+  border: 1px solid red;
+}
+
+.tnw-foot {
+  margin-top: 70px;
+  background-color: #131313; 
+}
+
+.foot-lst ul {
+  display: flex;
+}
+
+.foot-icn svg {
+  border: 1px solid #333;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: #333;
+  fill: #fff;
+  width: 40px;
+  padding: 5px;
+  height: 40px;
+}
+
+.foot-lst ul li,.foot-botm p {
+  margin-right: 8px;
+  color: #AAAAAA;
+}
+
+.foot-botm .tnw {
+  width: 37.7px;
+  height: 9px;
+}
