@@ -233,3 +233,10 @@ body {
   width: 37.7px;
   height: 9px;
 }
+
+/* Media Query */
+@media (min-width: 768px) and (max-width: 1023px){
+  .nav-sec{
+    padding: 16px 12px;
+  }
+}
