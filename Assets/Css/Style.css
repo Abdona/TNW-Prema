@@ -175,6 +175,10 @@ body {
   display: block;
 }
 
+.fndg3-pc {
+  display: none !important;
+}
+
 .fng-row .fng-head {
   background-color: #f00000;
 }
@@ -329,7 +333,7 @@ body {
 
 /* Media Queries: Desktop */
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   body {
     margin: 0 auto;
     padding: 0;
@@ -361,6 +365,10 @@ body {
 
   .top-text h2 {
     width: 50%;
+  }
+
+  .fndg3-pc {
+    display: block !important;
   }
 
   .top-text-bottom {
