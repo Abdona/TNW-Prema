@@ -254,8 +254,8 @@ body {
   }
 
   .founding-cnt {
-  display: flex!important;
-  justify-content: space-between;
+    display: flex!important;
+    justify-content: space-between;
   }
 
   .art-main {
