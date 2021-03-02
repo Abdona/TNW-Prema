@@ -254,7 +254,7 @@ body {
   }
 
   .founding-cnt {
-    display: flex!important;
+    display: flex !important;
     justify-content: space-between;
   }
 
