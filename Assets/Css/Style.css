@@ -239,22 +239,156 @@ body {
 }
 
 /* Media Query */
-@media (min-width: 768px) and (max-width: 1023px){
+/* Media Query Tablet */
+@media (min-width: 768px){
+  .tnw-foot{
+  display: block;
+  text-align: center;
+  display: none; 
+  }
   
-.article3 {
+  .article3 {
   display: grid;
-  grid-template-columns: repeat(10,60px);
-  grid-gap: 10px;
+  grid: 'main main right-top'
+  'main main right-top'
+  'main main right-bottom'
+  'main main right-bottom';
+  }
+  .art-main {
+  grid-area: main;
+  }
+  .art-tr {
+  grid-area: right-top;
+  }
+  .art-br {
+  grid-area: right-bottom;
+  }
+  .art123 {
+  height: 200px;
+  background-size: 200%!important;
+  }
+  .art1 {
+  height: 525px;
+  }
+  .art2 {
+  height: 258px;
+  }
+  .art3 {
+  height: 262.5px;
+  } 
+  .nav-ul {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  grid-column: 2/3;
+  }
+  
+  .main-sec {
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 0.5rem; 
+  }
+  
+  .foot-botm{
+  display: block;
+  text-align: center;
+  }
+  
+  .tnw-foot {
   border: 1px solid red;
-  grid-template-rows: repeat(6,20px);
-}
-
-.art1{
-  grid-column: 1/7;
-  grid-row: 1/7;
-}
-.art2{
-  grid-column: 7/11;
-  grid-row: 1/4;
-}
-}
+  }
+  
+  .tnw-foot {
+  margin-top: 70px;
+  background-color: #131313; 
+  }
+  
+  .foot-lst ul {
+  display: flex;
+  }
+  
+  .foot-icn svg {
+  border: 1px solid #333;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: #333;
+  fill: #fff;
+  width: 40px;
+  padding: 5px;
+  height: 40px;
+  }
+  
+  }
+  
+  /* Media Queries: Desktop */
+  @media (max-width: 1024px) {
+  body {
+  margin: 0 auto;
+  padding: 0;
+  }
+  
+  .na-3 {
+  display: flex;
+  }
+  
+  .foot-botm{
+  display: block;
+  text-align: center;
+  }
+  
+  .na-2 {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  }
+  
+  .main-sec {
+  margin-bottom: 1rem;
+  }
+  
+  .top-text{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  }
+  
+  .top-text h2 {
+  width: 50%;
+  }
+  
+  .top-text-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: flex-end;
+  }
+  
+  .tnw-foot {
+  border: 1px solid red;
+  }
+  
+  .tnw-foot {
+  margin-top: 70px;
+  background-color: #131313; 
+  }
+  
+  .foot-lst ul {
+  display: flex;
+  }
+  
+  .foot-icn svg {
+  border: 1px solid #333;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: #333;
+  fill: #fff;
+  width: 40px;
+  padding: 5px;
+  height: 40px;
+  }
+  
+  }
+  
+  
