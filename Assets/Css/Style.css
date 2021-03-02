@@ -254,6 +254,7 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .toprow-2 {
+    background-color: #fff;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(7, 10px);
@@ -339,6 +340,10 @@ body {
     background-color: #fff;
     grid-row: 3/6;
     grid-column: 2/fr;
+  }
+
+  .na-3 img {
+    top: -3px;
   }
 
   .na-3 .nav-ul li {
