@@ -454,4 +454,25 @@ body {
   #srchicon {
     height: 37px;
   }
+
+  .article3 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .art-main {
+    grid-column: 1/7;
+    grid-row: 1/9;
+  }
+
+  .art-tr {
+    grid-column: 7/11;
+    grid-row: 1/5;
+  }
+
+  .art-br {
+    grid-column: 7/11;
+    grid-row: 5/9;
+  }
 }
