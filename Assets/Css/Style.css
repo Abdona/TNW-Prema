@@ -260,12 +260,12 @@ body {
     grid-template-rows: repeat(7, 10px);
   }
 
-  .toprow-2 [class^="na-"] {
-    display: block;
-  }
-
   nav [class^="na-"] {
     width: 100%;
+  }
+  
+  .toprow-2 [class^="na-"] {
+    display: block;
   }
 
   .nav-ul {
@@ -283,12 +283,20 @@ body {
     margin-right: 5px;
   }
 
-  .na-2 .nav-ul-l li:first-child a {
-    color: #eee;
-  }
-
   .toprow-2 a {
     color: #aaa;
+  }
+ 
+  .na-4 a {
+    padding: 1px;
+    margin-left: 5px;
+    position: absolute;
+    top: 0;
+    font-size: 0.8rem;
+  }
+
+  .na-2 .nav-ul-l li:first-child a {
+    color: #eee;
   }
 
   .nav-ul-l {
@@ -328,14 +336,6 @@ body {
     grid-column: 1/fr;
   }
 
-  .na-4 a {
-    padding: 1px;
-    margin-left: 5px;
-    position: absolute;
-    top: 0;
-    font-size: 0.8rem;
-  }
-
   .na-3 {
     background-color: #fff;
     grid-row: 3/6;
@@ -368,13 +368,13 @@ body {
 }
 
 /* Desktop */
-@media screen and (min-width:1024px) {
-  .toprow-2 [class^="na-"] {
-    display: block;
-  }
-
+@media screen and (min-width: 1024px) {
   nav [class^="na-"] {
     width: 100%;
+  }
+
+  .toprow-2 [class^="na-"] {
+    display: block;
   }
 
   .nav-ul {
@@ -390,12 +390,20 @@ body {
     margin-right: 5px;
   }
 
-  .na-2 .nav-ul-l li:first-child a {
-    color: #eee;
-  }
-
   .toprow-2 a {
     color: #aaa;
+  }
+
+  .na-4 a {
+    padding: 1px;
+    margin-left: 5px;
+    position: absolute;
+    top: 0;
+    font-size: 0.8rem;
+  }
+
+  .na-2 .nav-ul-l li:first-child a {
+    color: #eee;
   }
 
   .nav-ul-l {
@@ -423,14 +431,6 @@ body {
     margin-top: -1px;
   }
 
-  .na-4 a {
-    padding: 1px;
-    margin-left: 5px;
-    position: absolute;
-    top: 0;
-    font-size: 0.8rem;
-  }
-
   .na-3 {
     background-color: #fff;
   }
@@ -454,5 +454,4 @@ body {
   #srchicon {
     height: 37px;
   }
-
 }
