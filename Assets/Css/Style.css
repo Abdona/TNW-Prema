@@ -244,11 +244,14 @@ body {
   .tnw-foot {
     text-align: center;
     display: none;
+    margin-top: 70px;
+    background-color: #131313;
   }
 
   .article3 {
     display: grid;
-    grid: 'main main right-top'
+    grid:
+    'main main right-top'
       'main main right-top'
       'main main right-bottom'
       'main main right-bottom';
@@ -301,11 +304,6 @@ body {
   .foot-botm {
     display: block;
     text-align: center;
-  }
-
-  .tnw-foot {
-    margin-top: 70px;
-    background-color: #131313;
   }
 
   .foot-lst ul {
