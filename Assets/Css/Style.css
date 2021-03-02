@@ -250,10 +250,11 @@ body {
 
   .article3 {
     display: grid;
-    grid: 'main main right-top'
-    'main main right-top'
-    'main main right-bottom'
-    'main main right-bottom';
+    grid:
+      'main main right-top'
+      'main main right-top'
+      'main main right-bottom'
+      'main main right-bottom';
   }
 
   .art-main {
