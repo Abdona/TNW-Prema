@@ -250,11 +250,10 @@ body {
 
   .article3 {
     display: grid;
-    grid:
+    grid: 'main main right-top'
     'main main right-top'
-      'main main right-top'
-      'main main right-bottom'
-      'main main right-bottom';
+    'main main right-bottom'
+    'main main right-bottom';
   }
 
   .art-main {
@@ -320,7 +319,6 @@ body {
     padding: 5px;
     height: 40px;
   }
-
 }
 
 /* Media Queries: Desktop */
