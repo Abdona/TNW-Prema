@@ -119,7 +119,7 @@ body {
 
 .art-cover {
   transition: background-color 0.4s ease;
-  background: rgba(0, 0, 0, .25) url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background: rgba(0, 0, 0, 0.25) url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
   z-index: 2;
   display: block;
   position: absolute;
@@ -204,9 +204,6 @@ body {
 }
 
 /* footer */
-.tnw-foot {
-  border: 1px solid red;
-}
 
 .tnw-foot {
   margin-top: 70px;
@@ -231,7 +228,7 @@ body {
 .foot-lst ul li,
 .foot-botm p {
   margin-right: 8px;
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .foot-botm .tnw {
@@ -240,10 +237,11 @@ body {
 }
 
 /* Media Query */
+
 /* Media Query Tablet */
+
 @media (min-width: 768px) {
   .tnw-foot {
-    display: block;
     text-align: center;
     display: none;
   }
@@ -306,10 +304,6 @@ body {
   }
 
   .tnw-foot {
-    border: 1px solid red;
-  }
-
-  .tnw-foot {
     margin-top: 70px;
     background-color: #131313;
   }
@@ -332,6 +326,7 @@ body {
 }
 
 /* Media Queries: Desktop */
+
 @media (max-width: 1024px) {
   body {
     margin: 0 auto;
@@ -375,10 +370,6 @@ body {
   }
 
   .tnw-foot {
-    border: 1px solid red;
-  }
-
-  .tnw-foot {
     margin-top: 70px;
     background-color: #131313;
   }
@@ -397,5 +388,4 @@ body {
     padding: 5px;
     height: 40px;
   }
-
 }
