@@ -189,10 +189,6 @@ body {
   height: 47px;
 }
 
-.ltst-fndg {
-  padding: 16px;
-}
-
 .fndg-3 div:nth-child(2) {
   padding: 9px;
   line-height: 2rem;
@@ -255,6 +251,11 @@ body {
       'main main right-top'
       'main main right-bottom'
       'main main right-bottom';
+  }
+
+  .founding-cnt {
+  display: flex!important;
+  justify-content: space-between;
   }
 
   .art-main {
