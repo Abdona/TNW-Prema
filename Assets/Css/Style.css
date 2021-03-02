@@ -243,3 +243,93 @@ body {
 .stpth {
   width: 70px;
 }
+
+/* Media Query */
+@media screen and (min-width:768px) {
+
+.toprow-2 [class^="na-"] {
+  display: block;
+}
+
+nav [class^="na-"] {
+  width: 100%;
+}
+  
+.nav-ul {
+  display: flex;
+}
+
+.na-2 {
+  background-color: #000;
+}
+  
+.na-2 li {
+  padding: 2px;
+  margin-right: 5px;
+}
+
+.na-2 .nav-ul-l li:first-child a {
+  color: #eee;
+}
+
+.toprow-2 a {
+  color: #aaa;
+}
+
+.nav-ul-l {
+  float: left;
+  position: absolute;
+  text-decoration: none;
+}
+
+.nav-ul-r {
+  float: right;
+}
+
+.na-2::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.naa-1 {
+  display: none;
+}
+
+.na-4 {
+ height: 17px;
+ margin-top: -1px;
+}
+
+.na-4 a {
+  padding: 1px;
+  margin-left: 5px;
+  position: absolute;
+  top: 0;
+  font-size: 0.8rem;
+}
+
+.na-3 {
+  background-color: #fff;
+}
+
+.na-3 .nav-ul li {
+  padding: 5px;
+  font-size: 12px;
+}
+
+.na-3 ul {
+  float: left;
+  top: 8px;
+}
+  
+.na-3::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+#srchicon {
+  height: 37px;
+}
+}
