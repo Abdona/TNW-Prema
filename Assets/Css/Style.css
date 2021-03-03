@@ -221,6 +221,11 @@ body {
 
 .foot-lst ul {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.foot-lst ul li:last-child {
+  left: 35%;
 }
 
 .foot-icn {
@@ -243,7 +248,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
-  width: 27%;
+  width: 77%;
 }
 
 .footnav3-itm {
@@ -252,13 +257,17 @@ body {
 
 .foot-botm {
   background-color: #000;
+  padding-left: 2.2em;
 }
 
 .foot-botm div {
-  margin-top: 2%;
-  display: flex;
+  padding-top: 7%;
   height: 101px;
-  justify-content: center;
+}
+
+.foot-botm div p {
+  width: 53%;
+  display: inline;
 }
 
 .foot-lst ul li,
@@ -277,8 +286,8 @@ body {
 }
 
 .stpth {
-  width: 70px;
-  bottom: 54%;
+  width: 19%;
+  margin-top: 10px;
 }
 
 /* Media Query */
@@ -299,10 +308,6 @@ body {
 
   .toprow-2 [class^="na-"] {
     display: block;
-  }
-
-  .foot-lst{
-    width: 35%;
   }
 
   .nav-ul {
@@ -449,10 +454,32 @@ body {
   .art3 {
     height: 262.5px;
   }
+
+  .foot-lst{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 46%;
+  }
+
+  .foot-botm div {
+    margin-top: 2%;
+    display: flex;
+    height: 101px;
+    justify-content: center;
+  }
+
+  .foot-lst ul {
+    flex-wrap: nowrap;
+  }
+
+  .foot-lst ul li:last-child {
+    left: 0;
+  }
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
   .nav-logo-tablet {
     display: none;
   }
@@ -575,6 +602,10 @@ body {
 
   .art1 {
     height: 525px;
+  }
+
+  .foot-lst{
+    width: 29%;
   }
 
   .art2 {
