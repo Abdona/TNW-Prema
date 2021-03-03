@@ -197,6 +197,11 @@ body {
   padding: 16px;
 }
 
+.foot-botm div {
+  padding-top: 7%;
+  height: 101px;
+}
+
 .fndg-3 div:nth-child(2) {
   padding: 9px;
   line-height: 2rem;
@@ -224,6 +229,12 @@ body {
   flex-wrap: wrap;
 }
 
+.foot-lst ul li,
+.foot-botm p {
+  margin-right: 8px;
+  color: #aaa;
+}
+
 .foot-lst ul li:last-child {
   left: 35%;
 }
@@ -244,7 +255,7 @@ body {
   height: 40px;
 }
 
-.foot-lst{
+.foot-lst {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
@@ -260,20 +271,9 @@ body {
   padding-left: 2.2em;
 }
 
-.foot-botm div {
-  padding-top: 7%;
-  height: 101px;
-}
-
 .foot-botm div p {
   width: 53%;
   display: inline;
-}
-
-.foot-lst ul li,
-.foot-botm p {
-  margin-right: 8px;
-  color: #aaa;
 }
 
 .foot-botm .tnw {
@@ -455,7 +455,7 @@ body {
     height: 262.5px;
   }
 
-  .foot-lst{
+  .foot-lst {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
@@ -604,7 +604,7 @@ body {
     height: 525px;
   }
 
-  .foot-lst{
+  .foot-lst {
     width: 29%;
   }
 
