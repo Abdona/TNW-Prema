@@ -4,7 +4,7 @@
 
 > The Next Web (TNW).
 
-![screenshot](/Assests/Images/Newyorktimememic.png)
+![screenshot](/Assets/Images/responsive_mobile.jpg)
 
 
 ## Built With
@@ -13,30 +13,28 @@
 - CSS
 ## Live Demo
 
-[The New York Times](https://abdona.github.io/Newyorklivedemo/)
+[The Next Web](https://abdona.github.io/TNW-Prema/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+1.CLone The Repository locally on your Computer.
 
+2.Open The Directory,where you cloned the Repository.
 
-To get a local copy up and running follow these simple example steps.
+3.open the "index.html" file.
 
-### Prerequisites
-You need to just clone the repo and open the repo locally.look for index.html and open it. 
 ## Authors
 
 👤 **Author1**
-
+# Abdulrahman Naser
 - GitHub: [@githubhandle](https://github.com/Abdona)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdulrahman-nasser-2b7173131/)
 
 👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/Abdona)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdulrahman-nasser-2b7173131/)
+# Verissmo Henry
+- GitHub: [@githubhandle](https://github.com/verissimohenry)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/henry-verissimo-618906167/)
 
 ## 🤝 Contributing
 
@@ -54,4 +52,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
