@@ -110,15 +110,15 @@ body {
 }
 
 .art1 {
-  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg") center no-repeat;
+  background: url("/Assets/Images/Opal.jpg") center no-repeat;
 }
 
 .art2 {
-  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png") center no-repeat;
+  background: url("/Assets/Images/design.webp") center no-repeat;
 }
 
 .art3 {
-  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png") center no-repeat;
+  background: url("/Assets/Images/Gemini2.webp") center no-repeat;
 }
 
 .art-cover {
