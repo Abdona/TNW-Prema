@@ -442,7 +442,7 @@ body {
 
   .na-3 ul {
     float: left;
-    top: 8px;
+    top: 12px;
   }
 
   .na-3::after {
@@ -474,5 +474,25 @@ body {
   .art-br {
     grid-column: 7/11;
     grid-row: 5/9;
+  }
+  .art123 {
+    height: 200px;
+    background-size: 200%!important;
+  }
+  
+  .art1 {
+    height: 525px;
+  }
+  
+  .art2 {
+    height: 258px;
+  }
+  
+  .art3 {
+    height: 260.5px;
+  }
+
+  .main-sec{
+    top: 84px;
   }
 }
