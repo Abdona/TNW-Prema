@@ -207,6 +207,10 @@ body {
   font-size: 14px;
 }
 
+.fndg3-pc {
+  display: none;
+  } 
+
 /* footer */
 .tnw-foot {
   margin-top: 70px;
@@ -252,7 +256,7 @@ body {
 
 /* Tablets */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .toprow-2 {
     background-color: #fff;
     display: grid;
@@ -419,6 +423,10 @@ body {
   nav [class^="na-"] {
     width: 100%;
   }
+
+  .fndg3-pc {
+    display: block;
+    } 
 
   .toprow-2 [class^="na-"] {
     display: block;
