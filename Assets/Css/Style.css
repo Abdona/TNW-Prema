@@ -365,6 +365,53 @@ body {
   #srchicon {
     height: 37px;
   }
+
+  .article3 {
+    display: grid;
+    grid:
+    'main main right-top'
+    'main main right-top'
+    'main main right-bottom'
+    'main main right-bottom';
+    }
+    
+    .founding-cnt {
+    display: flex !important;
+    justify-content: space-between;
+    }
+    
+    .art-main {
+    grid-area: main;
+    }
+    
+    .art-tr {
+    grid-area: right-top;
+    }
+    
+    .art-br {
+    grid-area: right-bottom;
+    }
+    
+    .art123 {
+    height: 200px;
+    background-size: 200% !important;
+    }
+    
+    .fndg-3 {
+    margin-right: 15px;
+    }
+    
+    .art1 {
+    height: 525px;
+    }
+    
+    .art2 {
+    height: 258px;
+    }
+    
+    .art3 {
+    height: 262.5px;
+    } 
 }
 
 /* Desktop */
