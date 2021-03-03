@@ -215,12 +215,17 @@ body {
 
 .tnw-foot {
   margin-top: 70px;
-  border: 1px solid red;
+  padding: 1px;
   background-color: #131313;
 }
 
 .foot-lst ul {
   display: flex;
+}
+
+.foot-icn {
+  text-align: center;
+  margin-top: 3%;
 }
 
 .foot-icn svg {
@@ -232,6 +237,28 @@ body {
   width: 40px;
   padding: 5px;
   height: 40px;
+}
+
+.foot-lst{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 27%;
+}
+
+.footnav3-itm {
+  margin-top: 4%;
+}
+
+.foot-botm {
+  background-color: #000;
+}
+
+.foot-botm div {
+  margin-top: 2%;
+  display: flex;
+  height: 101px;
+  justify-content: center;
 }
 
 .foot-lst ul li,
@@ -251,6 +278,7 @@ body {
 
 .stpth {
   width: 70px;
+  bottom: 54%;
 }
 
 /* Media Query */
@@ -271,6 +299,10 @@ body {
 
   .toprow-2 [class^="na-"] {
     display: block;
+  }
+
+  .foot-lst{
+    width: 35%;
   }
 
   .nav-ul {
