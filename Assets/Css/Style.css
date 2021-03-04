@@ -160,6 +160,10 @@ body {
 }
 
 /* latest funding */
+.founding-cnt {
+  margin-bottom: 40px;
+}
+
 .fndg-3 img {
   width: 60px;
   height: 60px;
@@ -179,6 +183,10 @@ body {
   display: block;
 }
 
+.fng-row {
+  background-color: rgba(71.8%,43.1%,47.5%,0.06);
+}
+
 .fng-row .fng-head {
   background-color: #f00000;
 }
@@ -195,6 +203,18 @@ body {
 
 .ltst-fndg {
   padding: 16px;
+}
+
+.ltst-fndg h2 {
+  margin-bottom: 6px;
+  font-size: 2.1rem;
+  color: #f42;
+  font-weight: bold;
+}
+
+.ltst-fndg ul {
+  line-height: 1.7;
+
 }
 
 .foot-botm div {
