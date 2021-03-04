@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Next Web Clone-Milestone1
+# The Next Web Clone-Milestone2
 
 > The Next Web (TNW).
 
-![screenshot](/Assets/Images/responsive_mobile.jpg)
+![screenshot](Assets/Images/th.png)
 
 
 ## Built With
@@ -13,7 +13,7 @@
 - CSS
 ## Live Demo
 
-[The Next Web](https://abdona.github.io/TNW-Prema/)
+[The Next Web](https://verissimohenry.github.io/TNW-Prema/)
 
 
 ## Getting Started
