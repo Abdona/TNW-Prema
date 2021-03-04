@@ -4,7 +4,7 @@
 
 > The Next Web (TNW).
 
-![screenshot](Assets/Images/Screenshot from 2021-03-04 18-56-39.png)
+![screenshot](/home/henry/TNW-Prema/Assets/Images/Screenshot from 2021-03-04 18-56-39.png)
 
 
 ## Built With
