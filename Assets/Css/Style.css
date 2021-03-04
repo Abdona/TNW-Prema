@@ -326,6 +326,10 @@ body {
   padding: 16px;
 }
 
+.catg-art {
+  margin-bottom: 50px;
+}
+
 .categories h2:first-child a {
   color: #f00000;
   font-weight: bold;
