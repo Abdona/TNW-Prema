@@ -347,14 +347,14 @@ body {
   height: 100%;
 }
 
-.catg-art header {
+.catg-art div header {
   padding: 179px 20px 16px;
   color: #fff;
   font-size: 15px;
   line-height: 18px;
 }
 
-.catg-art header a {
+.catg-art div header a {
   color: #fff;
   font-weight: bold;
   font-size: 20px;
@@ -369,12 +369,43 @@ body {
 }
 
 .img-right {
-  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg);
+  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg) no-repeat;
   position: absolute;
   float: right;
-  width: 27%;
-  height: 100%;
-  background-size: cover;
+  background-position: 50%;
+  float: right;
+  width: 96px;
+  height: 96px;
+  background-size: 179px;
+}
+
+.art-1 {
+  color: #f00000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.art-head {
+  float: left;
+  width: 72%;
+  font-size: 13px;
+  color: #f00000;
+  font-weight: lighter;
+  padding: 13px;
+}
+
+.catg-art article {
+  height: 96px;
+  background-color: rgba(255,68,34,.06);
+}
+
+.catg-art article::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.other-news {
 }
 
 /* Media Query */
