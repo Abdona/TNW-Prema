@@ -363,8 +363,9 @@ body {
     grid-row: 1/8;
   }
 
-  .nav-logo img {
-    margin: 21px;
+  .nav-logo svg {
+    margin: 1.2em;
+
   }
 
   .na-4 {
