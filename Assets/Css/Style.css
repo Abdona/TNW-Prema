@@ -221,6 +221,8 @@ body {
 .tnw-foot {
   margin-top: 70px;
   padding: 1px;
+  position: relative;
+  text-align: center;
   background-color: #131313;
 }
 
@@ -233,10 +235,6 @@ body {
 .foot-botm p {
   margin-right: 8px;
   color: #aaa;
-}
-
-.foot-lst ul li:last-child {
-  left: 35%;
 }
 
 .foot-icn {
@@ -256,10 +254,9 @@ body {
 }
 
 .foot-lst {
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 2%;
-  width: 77%;
+  display: flex;
+  justify-content: center;
 }
 
 .footnav3-itm {
@@ -268,7 +265,6 @@ body {
 
 .foot-botm {
   background-color: #000;
-  padding-left: 2.2em;
 }
 
 .foot-botm div p {
