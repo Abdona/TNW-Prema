@@ -110,7 +110,7 @@ body {
 }
 
 .art1 {
-  background: url("/Assets/Images/Opal.jpg") center no-repeat;
+  background: url("/Assets/Images/opal.jpg") center no-repeat;
 }
 
 .art2 {
@@ -286,7 +286,7 @@ body {
 }
 
 .stpth {
-  width: 19%;
+  width: 10%;
   margin-top: 10px;
 }
 
@@ -619,4 +619,13 @@ body {
   .main-sec {
     top: 77px;
   }
+
+  .foot-botm div {
+    padding-top: 0%;
+  }
+
+  .foot-botm div p {
+    bottom: 6px;
+  }
+
 }
