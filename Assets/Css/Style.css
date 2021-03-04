@@ -110,15 +110,15 @@ body {
 }
 
 .art1 {
-  background: url("/Assets/Images/opal.jpg") center no-repeat;
+  background: url(../Images/opal.Jpg) center no-repeat;
 }
 
 .art2 {
-  background: url("/Assets/Images/design.webp") center no-repeat;
+  background: url(../Images/design.webp) center no-repeat;
 }
 
 .art3 {
-  background: url("/Assets/Images/Gemini2.webp") center no-repeat;
+  background: url(../Images/Gemini2.webp) center no-repeat;
 }
 
 .art-cover {
@@ -189,16 +189,27 @@ body {
 
 .fng-row .fng-head {
   background-color: #f00000;
+  font-weight: bold;
 }
 
 .fng-head h4 {
+  color: #fff;
   margin-top: 6px;
+  top: 6px;
   margin-bottom: 18px;
 }
 
 .fng-head div {
   background-color: rgb(253, 146, 146);
   height: 47px;
+  color: #000;
+  font-size: 1rem;
+}
+
+.fng-head div span {
+  opacity: 0.5;
+  font-weight: normal;
+  font-size: 0.8rem;
 }
 
 .ltst-fndg {
@@ -210,6 +221,10 @@ body {
   font-size: 2.1rem;
   color: #f42;
   font-weight: bold;
+}
+
+.fnt-fndg {
+  color: #f42;
 }
 
 .ltst-fndg ul {
@@ -227,8 +242,8 @@ body {
 }
 
 .fndg-3 div:nth-child(3) {
-  padding: 9px;
-  font-size: 14px;
+  padding: 4px;
+  font-size: 19px;
 }
 
 .fndg3-pc {
