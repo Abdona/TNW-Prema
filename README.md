@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Next Web Clone-Milestone1
+# The Next Web Clone-Milestone2
 
 > The Next Web (TNW).
 
