@@ -151,15 +151,6 @@ body {
   font-weight: bold;
 }
 
-.art-cont .art1 h2 {
-  font-size: 3.7rem;
-}
-
-.art-cont .art2 h2,
-.art-cont .art3 h2 {
-  font-size: 1.8rem;
-}
-
 .arthead {
   color: #fff;
   z-index: 3;
