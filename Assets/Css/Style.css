@@ -15,7 +15,6 @@ body {
   z-index: 5;
 }
 
-
 /* *************************Navigation bar 2************************ */
 
 .nav-logo-tablet {
@@ -90,7 +89,6 @@ body {
   clear: both;
   display: block;
 }
-
 
 /* ************************articles-flex-3***************************** */
 
@@ -181,7 +179,6 @@ body {
   margin-right: 9px;
 }
 
-
 /* latest funding */
 
 .founding-cnt {
@@ -267,7 +264,6 @@ body {
   display: none;
 }
 
-
 /* latest- deals */
 
 .azure {
@@ -320,7 +316,6 @@ body {
 .captionb {
   color: grey;
 }
-
 
 /* footer */
 
@@ -391,7 +386,6 @@ body {
   width: 10%;
   margin-top: 10px;
 }
-
 
 /* Categories Section */
 
@@ -504,7 +498,6 @@ body {
 }
 
 /* Media Query */
-
 
 /* Tablets */
 
@@ -715,7 +708,6 @@ body {
     left: 0;
   }
 }
-
 
 /* Desktop */
 
