@@ -15,7 +15,9 @@ body {
   z-index: 5;
 }
 
+
 /* *************************Navigation bar 2************************ */
+
 .nav-logo-tablet {
   display: none;
 }
@@ -89,7 +91,9 @@ body {
   display: block;
 }
 
+
 /* ************************articles-flex-3***************************** */
+
 .main-sec {
   position: relative;
   top: 106px;
@@ -136,6 +140,19 @@ body {
   will-change: background-color;
 }
 
+.arthead h2 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.ltst-fndg h2 {
+  margin-bottom: 6px;
+  font-size: 2.1rem;
+  color: #f42;
+  font-weight: bold;
+}
+
 .art-cont .art1 h2 {
   font-size: 3.7rem;
 }
@@ -145,10 +162,6 @@ body {
   font-size: 1.8rem;
 }
 
-.arthead h2 {
-  margin-bottom: 5px;
-}
-
 .arthead {
   color: #fff;
   z-index: 3;
@@ -156,11 +169,6 @@ body {
   bottom: 0;
   padding: 13px;
   margin-bottom: -5px;
-}
-
-.arthead h2 {
-  font-size: 1.2rem;
-  font-weight: bold;
 }
 
 .arthead ul {
@@ -173,7 +181,9 @@ body {
   margin-right: 9px;
 }
 
+
 /* latest funding */
+
 .founding-cnt {
   margin-bottom: 40px;
 }
@@ -230,13 +240,6 @@ body {
   padding: 16px;
 }
 
-.ltst-fndg h2 {
-  margin-bottom: 6px;
-  font-size: 2.1rem;
-  color: #f42;
-  font-weight: bold;
-}
-
 .fnt-fndg {
   color: #f42;
 }
@@ -263,6 +266,61 @@ body {
 .fndg3-pc {
   display: none;
 }
+
+
+/* latest- deals */
+
+.azure {
+  width: 96%;
+  margin: 0 auto 20px;
+  padding-bottom: 20px;
+}
+
+.deals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.art-1 {
+  color: #f00000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.deals .art-1 {
+  font-size: 20px;
+}
+
+.deals .all {
+  color: #f00000;
+}
+
+.offers {
+  display: grid;
+  grid-gap: 10px;
+  padding: 20px 0 40px;
+}
+
+.offers .deals {
+  justify-content: flex-start;
+}
+
+.newimg {
+  width: 70px;
+  height: 50px;
+  padding-right: 5px;
+}
+
+.offers .deals .caption {
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
+
+.captionb {
+  color: grey;
+}
+
 
 /* footer */
 
@@ -334,7 +392,14 @@ body {
   margin-top: 10px;
 }
 
+
 /* Categories Section */
+
+.catg-art div header a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
 
 .categories {
   padding: 16px;
@@ -359,7 +424,7 @@ body {
 }
 
 .cat-opacity {
-  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 1));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
   position: absolute;
   width: 100%;
   height: 100%;
@@ -372,16 +437,10 @@ body {
   line-height: 18px;
 }
 
-.catg-art div header a {
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-}
-
 .catg-art header ul,
 .cover-botm {
   display: flex;
-  color: hsla(0,0%,100%,.6) !important;
+  color: hsla(0, 0%, 100%, 0.6) !important;
   font-size: 12px !important;
   font-weight: 500 !important;
 }
@@ -389,18 +448,11 @@ body {
 .img-right {
   background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg) no-repeat;
   position: absolute;
-  float: right;
   background-position: 50%;
   float: right;
   width: 96px;
   height: 96px;
   background-size: 179px;
-}
-
-.art-1 {
-  color: #f00000;
-  font-weight: bold;
-  font-size: 16px;
 }
 
 .art-head {
@@ -414,7 +466,7 @@ body {
 
 .catg-art article {
   height: 96px;
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, 0.06);
 }
 
 .catg-art article::after {
@@ -423,10 +475,9 @@ body {
   clear: both;
 }
 
-.other-news {
-}
 
 /* Media Query */
+
 
 /* Tablets */
 
@@ -546,11 +597,7 @@ body {
 
   .article3 {
     display: grid;
-    grid:
-      'main main right-top'
-      'main main right-top'
-      'main main right-bottom'
-      'main main right-bottom';
+    grid: 'main main right-top' 'main main right-top' 'main main right-bottom' 'main main right-bottom';
   }
 
   .founding-cnt {
@@ -591,6 +638,34 @@ body {
     height: 262.5px;
   }
 
+  /* latest- deals */
+  .offers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 20px 0 40px;
+  }
+
+  .offers .deals {
+    display: block;
+  }
+
+  .newimg {
+    width: 100%;
+    height: auto;
+    padding-right: 5px;
+  }
+
+  .offers .deals .caption {
+    font-size: 16px;
+    color: black;
+    font-weight: 900;
+  }
+
+  .captionb {
+    color: grey;
+  }
+
   .foot-lst {
     margin-left: auto;
     margin-right: auto;
@@ -614,7 +689,9 @@ body {
   }
 }
 
+
 /* Desktop */
+
 @media screen and (min-width: 1023px) {
   .nav-logo-tablet {
     display: none;
@@ -746,7 +823,7 @@ body {
     display: block;
     will-change: background-colour;
     position: absolute;
-    z-index:4;
+    z-index: 4;
     background-position: 0 0;
     mix-blend-mode: lighten;
   }
@@ -763,7 +840,38 @@ body {
   }
 
   .art1 {
-    height: 379.250px;
+    height: 379.25px;
+  }
+
+  .azure {
+    width: 85%;
+  }
+
+  .offers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 20px 0 40px;
+  }
+
+  .offers .deals {
+    display: block;
+  }
+
+  .newimg {
+    width: 100%;
+    height: 80%;
+    padding-right: 5px;
+  }
+
+  .offers .deals .caption {
+    font-size: 16px;
+    color: black;
+    font-weight: 900;
+  }
+
+  .captionb {
+    color: grey;
   }
 
   .foot-lst {
