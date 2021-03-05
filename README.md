@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Next Web Clone-Milestone1
+# The Next Web Clone-Milestone2
 
 > The Next Web (TNW).
 
@@ -32,9 +32,9 @@
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdulrahman-nasser-2b7173131/)
 
 👤 **Author2**
-# Verissmo Henry
-- GitHub: [@githubhandle](https://github.com/verissimohenry)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/henry-verissimo-618906167/)
+# Duncan sareto
+- GitHub: [@githubhandle](https://github.com/saretoduncan)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/duncan-sareto-10022b146/)
 
 ## 🤝 Contributing
 
