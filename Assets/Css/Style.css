@@ -136,6 +136,12 @@ body {
   will-change: background-color;
 }
 
+.arthead h2 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .art-cont .art1 h2 {
   font-size: 3.7rem;
 }
@@ -145,10 +151,6 @@ body {
   font-size: 1.8rem;
 }
 
-.arthead h2 {
-  margin-bottom: 5px;
-}
-
 .arthead {
   color: #fff;
   z-index: 3;
@@ -156,11 +158,6 @@ body {
   bottom: 0;
   padding: 13px;
   margin-bottom: -5px;
-}
-
-.arthead h2 {
-  font-size: 1.2rem;
-  font-weight: bold;
 }
 
 .arthead ul {
@@ -761,7 +758,7 @@ body {
     z-index: 3;
     background-size: contain;
   }
-  
+
   .ltst-fndg .head-cont h2 {
     float: left;
   }
