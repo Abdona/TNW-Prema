@@ -483,9 +483,9 @@ body {
   display: block;
   width: 4px;
   height: 4px;
-  position: absolute;
-  right: 50px;
-  bottom: 21px;
+  position: relative;
+  right: 12px;
+  bottom: -10px;
 }
 
 /* Media Query */
