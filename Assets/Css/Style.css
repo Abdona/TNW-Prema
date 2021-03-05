@@ -149,15 +149,6 @@ body {
   font-weight: bold;
 }
 
-.art-cont .art1 h2 {
-  font-size: 3.7rem;
-}
-
-.art-cont .art2 h2,
-.art-cont .art3 h2 {
-  font-size: 1.8rem;
-}
-
 .arthead {
   color: #fff;
   z-index: 3;
@@ -378,9 +369,12 @@ body {
 .catg-art header ul,
 .cover-botm {
   display: flex;
-  color: hsla(0%, 0%, 100%, 0.6) !important;
   font-size: 12px !important;
   font-weight: 500 !important;
+}
+
+.cover-botm {
+  color: hsla(0%, 0%, 100%, 0.6) !important;
 }
 
 .img-right {
@@ -708,6 +702,15 @@ body {
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(9, 1fr);
     height: 435.25px;
+  }
+
+  .art-cont .art1 h2 {
+    font-size: 3.7rem;
+  }
+  
+  .art-cont .art2 h2,
+  .art-cont .art3 h2 {
+    font-size: 1.8rem;
   }
 
   .art-main {
