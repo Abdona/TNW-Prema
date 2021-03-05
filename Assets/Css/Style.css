@@ -90,7 +90,6 @@ body {
   display: block;
 }
 
-
 /* ************************articles-flex-3***************************** */
 
 .main-sec {
@@ -152,15 +151,6 @@ body {
   font-weight: bold;
 }
 
-.art-cont .art1 h2 {
-  font-size: 3.7rem;
-}
-
-.art-cont .art2 h2,
-.art-cont .art3 h2 {
-  font-size: 1.8rem;
-}
-
 .arthead {
   color: #fff;
   z-index: 3;
@@ -179,7 +169,6 @@ body {
   font-size: 0.8rem;
   margin-right: 9px;
 }
-
 
 /* latest funding */
 
@@ -266,7 +255,6 @@ body {
   display: none;
 }
 
-
 /* latest- deals */
 
 .azure {
@@ -319,7 +307,6 @@ body {
 .captionb {
   color: grey;
 }
-
 
 /* footer */
 
@@ -391,14 +378,7 @@ body {
   margin-top: 10px;
 }
 
-
 /* Categories Section */
-
-.catg-art div header a {
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-}
 
 .categories {
   padding: 16px;
@@ -412,6 +392,10 @@ body {
   color: #fff;
   font-weight: bold;
   font-size: 20px;
+}
+
+.other-news ul li a {
+  color: #aaa;
 }
 
 .categories h2:first-child a {
@@ -491,10 +475,6 @@ body {
   margin-left: 5px;
 }
 
-.other-news ul li a {
-  color: #aaa;
-}
-
 .other-news ul li a::before {
   border: 1px solid red;
   background-color: red;
@@ -509,7 +489,6 @@ body {
 }
 
 /* Media Query */
-
 
 /* Tablets */
 
@@ -720,7 +699,6 @@ body {
     left: 0;
   }
 }
-
 
 /* Desktop */
 
