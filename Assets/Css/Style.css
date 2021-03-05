@@ -761,6 +761,27 @@ body {
     z-index: 3;
     background-size: contain;
   }
+  
+  .ltst-fndg .head-cont h2 {
+    float: left;
+  }
+
+  .ltst-fndg .head-cont::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+  .ltst-fndg .head-cont ul {
+    display: flex;
+    float: right;
+    flex-direction: row-reverse;
+    right: 20px;
+  }
+
+  .ltst-fndg .head-cont ul li {
+    margin-left: 10px;
+  }
 
   .art1 {
     height: 379.250px;
