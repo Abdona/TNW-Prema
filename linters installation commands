@@ -1,0 +1,4 @@
+ npm install --save-dev hint@6.0.
+ npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
+ npx hint .
+ npx stylelint "**/*.{css,scss}" --fix
