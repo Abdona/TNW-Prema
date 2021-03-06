@@ -445,7 +445,6 @@ body {
 
 .img-right {
   background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg) no-repeat;
-  position: absolute;
   background-position: 50%;
   float: right;
   width: 96px;
@@ -659,6 +658,19 @@ body {
     height: 262.5px;
   }
 
+  /* Categories */
+
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .catg-art {
+    width: 49%;
+    position: static;
+  }
+
   /* latest- deals */
 
   .azure {
@@ -718,7 +730,7 @@ body {
 
 /* Desktop */
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .nav-logo-tablet {
     display: none;
   }
@@ -899,15 +911,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 59px;
-  }
-
-  .img-right {
-    margin-left: 8px;
+    padding: 41px;
   }
 
   .catg-art {
-    width: 370px;
+    width: 33%;
     position: static;
   }
 
