@@ -1,0 +1,10 @@
+@include variable;
+@mixin text-color($bool) {
+    @if $bool=True {
+        color: $black;
+    }
+}
+
+a:hover {
+    @include text-color(True);
+}
